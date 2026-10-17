@@ -46,6 +46,26 @@ td.n{text-align:right;font-variant-numeric:tabular-nums}
 .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:#242430;color:#a9a9bb;margin-left:6px}
 footer{color:#5f5f6d;font-size:12px;margin-top:36px;line-height:1.7}
 .warn{border-left:3px solid var(--acc);padding-left:12px;color:#b9b9c6;font-size:13px;margin:12px 0 0}
+@media(max-width:520px){
+  .wrap{padding:22px 14px 60px}
+  h1{font-size:22px;line-height:1.25}
+  .sub{font-size:12.5px;margin-bottom:20px}
+  .kpi{padding:13px 14px}
+  .kpi .v{font-size:21px}
+  .kpi .l{font-size:11.5px}
+  .card{padding:14px}
+  .bar-row{grid-template-columns:84px 1fr 58px;gap:6px;font-size:11.5px;margin-bottom:7px}
+  .bar-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bar-val{font-size:10.5px}
+  .bar-track{height:13px}
+  .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{font-size:11.5px;min-width:290px}
+  th,td{padding:6px 4px}
+  th{font-size:10px;letter-spacing:.2px}
+  .geo-line{grid-template-columns:60px 1fr 34px;gap:5px;font-size:11px}
+  .ins li{margin-bottom:9px;font-size:13px}
+  .geo-card{padding:11px}
+}
 </style></head><body><div class="wrap">
 
 <h1>Set To Hate — статистика за месяц</h1>
@@ -93,7 +113,7 @@ footer{color:#5f5f6d;font-size:12px;margin-top:36px;line-height:1.7}
 
   <div class="card">
     <h2>Ключевые цифры</h2>
-    <table>
+    <div class="table-wrap"><table>
       <tr><th>Площадка</th><th class="n">Аудитория</th><th class="n">За месяц</th></tr>
       <tr><td>Facebook</td><td class="n">27 000</td><td class="n">5,19 млн просмотров</td></tr>
       <tr><td>TikTok · фан</td><td class="n">2 068</td><td class="n">1,55 млн · +527</td></tr>
@@ -106,7 +126,7 @@ footer{color:#5f5f6d;font-size:12px;margin-top:36px;line-height:1.7}
       <tr><td>Telegram</td><td class="n">438</td><td class="n">355 просмотров/пост</td></tr>
       <tr><td>Deezer</td><td class="n">111</td><td class="n">3 альбома</td></tr>
       <tr><td>SoundCloud</td><td class="n">46</td><td class="n">3 трека</td></tr>
-    </table>
+    </table></div>
   </div>
 </div>
 
